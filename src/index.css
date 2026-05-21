@@ -34,7 +34,7 @@ body {
 /* Main App Container */
 .ocr-container {
   width: 100%;
-  width: 700px;
+  max-width: 700px;
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
@@ -211,11 +211,18 @@ body {
     transform: translateY(0);
   }
 }
-
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Mobile */
 @media (max-width: 768px) {
   .ocr-container {
     padding: 24px;
+    width: 100%;
+    min-width: 300px;
   }
 
   .ocr-title {

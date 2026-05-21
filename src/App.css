@@ -36,3 +36,163 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 900px) {
+  body {
+    padding: 30px 16px;
+    align-items: flex-start;
+  }
+
+  .ocr-container {
+    max-width: 100%;
+    padding: 28px;
+    border-radius: 24px;
+  }
+
+  .ocr-title {
+    font-size: 1.8rem;
+  }
+
+  .ocr-subtitle {
+    font-size: 0.92rem;
+  }
+
+  .preview-image {
+    max-height: 300px;
+  }
+
+  .extract-btn {
+    padding: 15px;
+    font-size: 0.95rem;
+  }
+
+  .result-box {
+    padding: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 12px;
+  }
+
+  .ocr-container {
+    padding: 22px 18px;
+    border-radius: 20px;
+  }
+
+  .ocr-title {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .ocr-subtitle {
+    font-size: 0.88rem;
+    margin-bottom: 22px;
+  }
+
+  .upload-box {
+    padding: 28px 16px;
+    border-radius: 16px;
+  }
+
+  .upload-box p {
+    font-size: 0.88rem;
+  }
+
+  .preview-container {
+    margin-top: 22px;
+  }
+
+  .preview-image {
+    max-height: 240px;
+    border-radius: 16px;
+  }
+
+  .extract-btn {
+    margin-top: 18px;
+    padding: 14px;
+    border-radius: 14px;
+    font-size: 0.92rem;
+  }
+
+  .progress-text {
+    font-size: 0.82rem;
+  }
+
+  .result-box {
+    margin-top: 24px;
+    padding: 18px;
+    border-radius: 16px;
+  }
+
+  .result-title {
+    font-size: 1rem;
+  }
+
+  .result-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 400px) {
+  body {
+    padding: 14px 10px;
+  }
+
+  .ocr-container {
+    padding: 18px 14px;
+  }
+
+  .ocr-title {
+    font-size: 1.3rem;
+  }
+
+  .ocr-subtitle {
+    font-size: 0.82rem;
+  }
+
+  .upload-box {
+    padding: 24px 12px;
+  }
+
+  .preview-image {
+    max-height: 200px;
+  }
+
+  .extract-btn {
+    font-size: 0.88rem;
+    padding: 12px;
+  }
+
+  .result-text {
+    font-size: 0.85rem;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1400px) {
+  .ocr-container {
+    max-width: 800px;
+    padding: 40px;
+  }
+
+  .ocr-title {
+    font-size: 2.4rem;
+  }
+
+  .ocr-subtitle {
+    font-size: 1rem;
+  }
+
+  .preview-image {
+    max-height: 420px;
+  }
+
+  .result-text {
+    font-size: 1rem;
+  }
+}
