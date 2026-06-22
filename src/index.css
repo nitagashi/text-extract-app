@@ -300,3 +300,121 @@ body {
     transform: translateY(-10px);
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f1117;
+  color: white;
+  font-family: Inter, system-ui, sans-serif;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.ocr-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.upload-box {
+  display: block;
+  border: 2px dashed #5b5bff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #171923;
+}
+
+.upload-box:hover {
+  border-color: #7b7bff;
+}
+
+.upload-box input {
+  display: none;
+}
+
+.image-grid {
+  display: grid;
+  gap: 16px;
+  margin-top: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.preview-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid #262938;
+}
+
+.extract-btn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 16px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  background: #6d5dfc;
+  color: white;
+}
+
+.progress-bar {
+  margin-top: 20px;
+  height: 10px;
+  background: #252837;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #6d5dfc;
+  transition: 0.3s;
+}
+
+.result-box {
+  margin-top: 30px;
+}
+
+.result-actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.result-actions button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #6d5dfc;
+  color: white;
+}
+
+.result-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #171923;
+  border-radius: 16px;
+}
+
+.result-item h3 {
+  margin-bottom: 12px;
+}
+
+.result-item pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.6;
+}
