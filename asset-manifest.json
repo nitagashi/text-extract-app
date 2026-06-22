@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/text-extract-app/static/css/main.0c7c3729.css",
+    "main.js": "/text-extract-app/static/js/main.0ee706b2.js",
+    "index.html": "/text-extract-app/index.html",
+    "main.0c7c3729.css.map": "/text-extract-app/static/css/main.0c7c3729.css.map",
+    "main.0ee706b2.js.map": "/text-extract-app/static/js/main.0ee706b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c7c3729.css",
+    "static/js/main.0ee706b2.js"
+  ]
+}
