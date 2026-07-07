@@ -63,21 +63,6 @@ body {
   font-size: 0.95rem;
 }
 
-/* Upload Area */
-.upload-box {
-  display: block;
-  position: relative;
-  border: 2px dashed rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  padding: 40px 20px;
-  text-align: center;
-  transition: 0.3s ease;
-  background: rgba(255, 255, 255, 0.04);
-  & input {
-    display: none;
-  }
-}
-
 .upload-box:hover {
   border-color: #8b5cf6;
   background: rgba(139, 92, 246, 0.08);
@@ -326,11 +311,22 @@ h1 {
 }
 
 .upload-box {
-  display: block;
-  border: 2px dashed #5b5bff;
-  padding: 40px;
-  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
   border-radius: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  transition: 0.3s ease;
+  background: rgba(255, 255, 255, 0.04);
+  & input {
+    display: none;
+  }
   cursor: pointer;
   background: #171923;
 }
