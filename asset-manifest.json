@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/text-extract-app/static/css/main.0c7c3729.css",
-    "main.js": "/text-extract-app/static/js/main.0ee706b2.js",
+    "main.css": "/text-extract-app/static/css/main.b4cd983e.css",
+    "main.js": "/text-extract-app/static/js/main.95db5bb6.js",
     "index.html": "/text-extract-app/index.html",
-    "main.0c7c3729.css.map": "/text-extract-app/static/css/main.0c7c3729.css.map",
-    "main.0ee706b2.js.map": "/text-extract-app/static/js/main.0ee706b2.js.map"
+    "main.b4cd983e.css.map": "/text-extract-app/static/css/main.b4cd983e.css.map",
+    "main.95db5bb6.js.map": "/text-extract-app/static/js/main.95db5bb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c7c3729.css",
-    "static/js/main.0ee706b2.js"
+    "static/css/main.b4cd983e.css",
+    "static/js/main.95db5bb6.js"
   ]
 }
